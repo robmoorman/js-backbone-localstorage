@@ -23,3 +23,7 @@ Force your collections/models by setting the property `forceRefresh` to `true` i
 ### Version number
 
 Since stored data is outdated when a new version is deployed, you probably want to clear the current cache. By setting your version number before any server-activity takes place, the Local Storage will be cleared when different version is detected. This can be done by calling the static `BackboneLocalStorage.setVersion` method.
+
+### Prefix
+
+By default all storage will be done with a prefix of `unknown`, it's highly recomended to set the prefix by calling the `BackboneLocalStorage.setPrefix` method. In case the maxiumum discspace (5MB) is reached, all storage will be clear under this specific prefix.
