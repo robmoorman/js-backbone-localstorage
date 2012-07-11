@@ -19,3 +19,7 @@ var model = Backbone.Model.extend({
 </pre>
 
 Force your collections/models by setting the property `forceRefresh` to `true` in your options while executing the `fetch` method.
+
+### Version number
+
+Since stored data is outdated when a new version is deployed, you probably want to clear the current cache. By setting your version number before any server-activity takes place, the Locale Storage will be cleared when different version is detected. This can be done by calling the static `BackboneLocalStorage.setVersion` method.
