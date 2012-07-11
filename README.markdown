@@ -22,4 +22,4 @@ Force your collections/models by setting the property `forceRefresh` to `true` i
 
 ### Version number
 
-Since stored data is outdated when a new version is deployed, you probably want to clear the current cache. By setting your version number before any server-activity takes place, the Locale Storage will be cleared when different version is detected. This can be done by calling the static `BackboneLocalStorage.setVersion` method.
+Since stored data is outdated when a new version is deployed, you probably want to clear the current cache. By setting your version number before any server-activity takes place, the Local Storage will be cleared when different version is detected. This can be done by calling the static `BackboneLocalStorage.setVersion` method.
