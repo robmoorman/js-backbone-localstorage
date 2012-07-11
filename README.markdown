@@ -1,5 +1,7 @@
 # Backbone.sync Local Storage
 
+**Note:** this utility only applies for read methods in Backbone.sync
+
 ## Requirements
 * [Modernizr](http://modernizr.com/)
 
