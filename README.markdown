@@ -5,7 +5,7 @@
 
 ## Usage
 
-Local Storage is optional for all your collections and models. At instantiaion of your collection/model an object under the property `localStorage` should be present with an `id` inherited:
+Local Storage is optional for all your collections and models. At instantiation of your collection/model an object under the property `localStorage` should be present with an `id` inherited:
 
 <pre>
 var model = Backbone.Model.extend({
